@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1200px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+/* 导航栏开始 */
+.navbar-default {
+    /* background-color: #f8f8f8; */
+    background-color: white !important;
+    border-color: #e7e7e7;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0 0 0 57px;
+}
+
+.navbar-nav li {
+    float: left;
+    margin-left: 27px;
+}
+
+.nav li a img {
+    /* max-width: none; */
+    width: 58%;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    /* margin-bottom: 20px; */
+    margin: 0;
+    border: 1px solid transparent;
+}
+
+/* 导航栏结束 */
+.first_img {
+    position: relative;
+    width: 100%;
+    height: 497px;
+    background: url(../images/u=652195797\,3396364421&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto.jpg) no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.first_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.first_img .ch_img {
+    position: absolute;
+    width: 49%;
+    height: 82%;
+    top: 25%;
+    left: 25%;
+    /* background-color: pink; */
+    /* box-shadow: 0 2px 12px 0 rgb(0 0 0 / 40%);*/
+}
+
+/* 中间文字区域 */
+.title {
+    padding-top: 5%;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+.title h3 {
+    display: block;
+    width: 700px;
+    margin: auto;
+}
+
+/* 中间文字区域 */
+
+.details_shopping {
+    position: relative;
+    width: 100%;
+    height: 456px;
+    background-color: #fde2b0;
+}
+
+/* 商品展示  */
+.details_shopping p {
+    padding-top: 64px;
+    width: 52%;
+    height: 2;
+    margin: 0 auto;
+}
+
+.details_shopping .shopping_card {
+    position: absolute;
+    display: flex;
+    width: 67%;
+    height: 302px;
+    /* margin: auto; */
+    left: 18%;
+    bottom: -36px;
+}
+
+.shopping_card_ch {
+    flex: 1;
+}
+
+.shopping_card_ch img {
+    display: block;
+    width: 65%;
+    height: 100%;
+}
+
+/* <!-- 商品展示 --> */
+/* 商品下面的文字 */
+.second_title {
+    width: 100%;
+    height: 84px;
+    background-color: white;
+}
+
+.second_title p {
+    padding-top: 64px;
+    width: 21%;
+    height: 2;
+    margin: 0 auto;
+}
+
+.third_title {
+    padding-top: 17px;
+    width: 100%;
+    height: 131px;
+    background-color: #fde9c6;
+}
+
+.third_title p {
+    margin: auto;
+    width: 60%;
+}
+
+/* 商品下面的文字 */
+/* 轮播 */
+.lunbo {
+    position: relative;
+    padding-top: 68px;
+    background-color: white;
+    width: 100%;
+    height: 9 07px;
+}
+
+.lunbo_data {
+    width: 43%;
+    height: 400px;
+    margin: auto;
+}
+
+.carousel {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.item img {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-inner {
+    position: relative;
+    border-radius: 2%;
+    width: 100%;
+    height: 908px;
+    overflow: hidden;
+}
+
+.carousel-inner .item img {
+    display: block;
+    height: 400px !important;
+}
+
+.shopping_box1 {
+    top: 112%;
+    left: 20%;
+    position: absolute;
+    width: 27%;
+    height: 202px;
+    background: url(../images/z2851160599285_598c99c91274338be58f50025515c6a7\ 1.png);
+    background-size: 100% 100%;
+}
+
+.shopping_box2 {
+    top: 112%;
+    right: 17%;
+    position: absolute;
+    width: 27%;
+    height: 202px;
+    background: url(../images/239465517_4241819902580270_8061349385167720141_n\ 1.png);
+    background-size: 100% 100%;
+}
+
+/* 轮播 */

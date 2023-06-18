@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 导航栏开始 */
+.navbar-default {
+    /* background-color: #f8f8f8; */
+    background-color: white !important;
+    border-color: #e7e7e7;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0 0 0 57px;
+}
+
+.navbar-nav li {
+    float: left;
+    margin-left: 27px;
+}
+
+.nav li a img {
+    /* max-width: none; */
+    width: 58%;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    /* margin-bottom: 20px; */
+    margin: 0;
+    border: 1px solid transparent;
+}
+
+/* 导航栏结束 */
+.demo {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.product-grid {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.product-grid .product-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-grid .product-image a.image {
+    display: block;
+}
+
+.product-grid .product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-image .pic-1 {
+    backface-visibility: hidden;
+    transition: all .5s ease 0s;
+}
+
+.product-grid .product-image:hover .pic-1 {
+    opacity: 0;
+    transform: translateX(-50%);
+}
+
+.product-image .pic-2 {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transition: all .5s ease 0s;
+}
+
+.product-grid .product-image:hover .pic-2 {
+    opacity: 1;
+    left: 0;
+}
+
+.product-grid .product-sale-label {
+    color: #fff;
+    background: #b79b6c;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 3px 10px 10px 3px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.product-grid .product-button-group {
+    font-size: 0;
+    width: 100%;
+    opacity: 0;
+    transform: perspective(600px) translateY(15px) rotateX(90deg);
+    transform-origin: bottom center;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    transition: all 0.3s ease 0.1s;
+}
+
+.product-grid:hover .product-button-group {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+}
+
+.product-grid .product-button-group a {
+    color: #fff;
+    background: #333;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    width: calc(50% - 4px);
+    padding: 10px 5px;
+    margin: 0 2px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.product-grid .product-button-group a:hover {
+    background-color: #b79b6c;
+}
+
+.product-grid .product-content {
+    padding: 12px 0 0;
+    position: relative;
+}
+
+.product-grid .title {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0 0 5px;
+}
+
+.product-grid .title a {
+    color: #333;
+    transition: all 0.5s ease;
+}
+
+.product-grid .title a:hover {
+    color: #b79b6c;
+}
+
+.product-grid .price {
+    color: #b79b6c;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product-grid .price span {
+    color: #999;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin-right: 2px;
+}
+
+.product-grid:hover .price {
+    opacity: 0;
+}
+
+.product-grid .add-to-cart {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: all 0.3s linear 0s;
+}
+
+.product-grid .add-to-cart:hover {
+    color: #b79b6c;
+    text-decoration: underline;
+}
+
+.product-grid:hover .add-to-cart {
+    opacity: 1;
+    bottom: 2px;
+}
+
+@media screen and (max-width:990px) {
+    .product-grid {
+        margin: 0 0 30px;
+    }
+}
+
+/* 底部 */
+.htmleaf-container .big-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+}
+
+.big-picture .big-picture-middle {
+    position: relative;
+    height: 447.75px;
+    width: 950px;
+}
+
+.big-picture .big-picture-middle .big-picture-left {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 714.75px;
+    height: 447.75px;
+    background-image: url(../images/999.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.big-picture .big-picture-middle .big-picture-left p {
+    width: 500px;
+}
+
+.big-picture .big-picture-middle .big-picture-right {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    width: 320.25px;
+    height: 372px;
+    background-image: url(../images/88.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.big-picture .big-picture-middle .big-picture-top {
+    position: absolute;
+    left: -30px;
+    top: -150px;
+    width: 225px;
+    height: 225px;
+    background-image: url(../images/77.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* .big-tittle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 87px;
+        }
+        
+        .big-tittle .small-tille {
+     width: 430.5px;
+     height: 43.5px;
+     background-image: url(../images/9.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+    
+        } */
+/* .big-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;}
+
+    .big-picture-middle {
+        position: relative;
+        height: 447.75px;
+        width: 950px;
+    }
+
+        .big-picture-left {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 714.75px;
+            height: 447.75px;
+            
+            background-image: url(images/Rectangle427.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+
+            p {
+                width: 500px;
+            }
+        }
+
+        .big-picture-right {
+            position: absolute;
+            right: 0px;
+            top: 50px;
+            width: 320.25px;
+            height: 372px;
+            background-image: url(images/244847745_4382587718503487_5299572478145080531_n.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .big-picture-top {
+            position: absolute;
+            left: -30px;
+            top: -150px;
+            width: 225px;
+            height: 225px;
+            background-image: url(images/illust58-6239-01[Converted].png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+     */
