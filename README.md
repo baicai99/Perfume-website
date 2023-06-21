@@ -2,7 +2,7 @@
 ## 中文
 * 2023.6.32更新：以前大学室友一起做的网页，一人做一页。设计图他们网上找的，反正因为避免版权纠纷，我把图片都删了，文字也替换了。为了避免版权纠纷，所有图片都采用了[picsum](https://picsum.photos/)的开源图片作为填充替代。文字填充采用Chinese Lorem。
 ## English
-A copy of the shopping website but template, template pdf is downloaded from the Internet, if there is infringement please contact me. Email: chris176@qq.com
+* 2023.6.32 Update: Former college roommates do web pages together, one person does one page. They found the blueprints online, but to avoid copyright disputes, I deleted the pictures and replaced the text. To avoid copyright disputes, all images have been filled with open source images from [picsum](https://picsum.photos/) instead. Chinese Lorem is used for text filling.
 ## 预览图
 ![screencapture-file-Users-zhengjiyuan-Documents-index-html-2023-06-19-00_55_30](https://github.com/baicai99/Shopping-website/assets/101706274/ce8c1169-dcce-44be-918d-36e67fe0c887)
 ![screencapture-file-Users-zhengjiyuan-Documents-details-html-2023-06-19-00_55_21](https://github.com/baicai99/Shopping-website/assets/101706274/44ccba15-6d6a-4896-aed0-2b2b62952971)
